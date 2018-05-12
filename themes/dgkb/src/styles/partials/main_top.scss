@@ -1,0 +1,75 @@
+.top-block {
+    background-image: url('/assets/images/home-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    margin-bottom: 87px;
+    .container {
+        position: relative;
+        padding-top: 65px;
+        padding-bottom: 190px;
+    }
+    &_small-header {
+        display: block;
+        font-size: 27px;
+        line-height: 1.1;
+        color: #ffffff;
+        font-weight: 800;
+        margin-bottom: 45px;
+    }
+}
+
+.main-title {
+    font-size: 63px;
+    font-weight: 800;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    &_white {
+        color: #ffffff;
+    }
+}
+.order-form {
+    display: flex;
+    flex-wrap: wrap;
+    &__title {
+        flex: 0 0 100%;
+        font-size: 27px;
+        color: #ffffff;
+        font-weight: 800;
+        line-height: 1.1;
+        margin-bottom: 35px;
+    }
+    &__input-group {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: 1;
+        flex-grow: 1;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+    &__input {
+        flex-basis: 30%;
+        border: 0;
+    }
+    &__submit {
+        flex-basis: 225px;
+        padding: 20px 0;
+        background-color: $submit-button-color;
+        color: #ffffff;
+        font-weight: 800;
+        border: 0;
+        border-radius: 10px;
+        margin-left: 6px;
+        cursor: pointer;
+        &:hover, &:focus {
+            background-color: darken($submit-button-color, 5%);
+        }
+    }
+    &__legal-text {
+        font-size: 11px;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+}

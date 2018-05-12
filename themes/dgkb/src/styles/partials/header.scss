@@ -1,0 +1,160 @@
+.header {
+    .container {
+        padding: 33px 0 23px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__buttons {
+        display: flex;
+        
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    &__image {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    &__name {
+        display: block;
+        color: $main-color;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 15px;
+        width: 195px;
+        line-height: 1.1;
+    }
+    &__text-red {
+        color: $second-color;
+    }
+}
+
+.contacts {
+    flex-basis: 340px;
+    display: flex;
+    align-items: center;
+    &__image {
+        margin-right: 10px;
+        width: 43px;
+        height: 45px;
+    }
+    &__info {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    &__assress {
+        flex: 0 0 100%;
+        color: $text-color;
+        font-size: 10px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
+.phone {
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+
+    &__icon {
+        width: 12px;
+        height: 12px;
+        margin-right: 3px;
+    }
+    &__number {
+        color: $main-color;
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 1;
+    }
+}
+.back-call-button {
+    flex: 0 0 50%;
+    display: inline-block;
+    padding: 2px 20px;
+    font-size: 8px;
+    font-weight: 800;
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: $main-color;
+    &:hover, &:focus {
+        color: #ffffff;
+        text-decoration: none;
+        background-color: rgba($main-color, .8);
+    }
+}
+.to-map {
+    display: flex;
+    align-items: center;
+    &__icon {
+        width: 10px;
+        height: 10px;
+        margin-right: 4px;
+    }
+    &__link {
+        font-size: 10px;
+        color: $header-link-color;
+        text-decoration: underline;
+        &:hover, &:focus {
+            color: darken($header-link-color, 5%);
+        }
+    }
+}
+.menu-button, .login-button {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: $header-link-color;
+    padding: 5px;
+    &:hover, &:focus {
+        background-color: rgba(0,0,0,.03);
+        text-decoration: none;
+        color: $header-link-color;
+    }
+    &__icon {
+        margin-right: 5px;
+    }
+    &__text {
+        padding-top: 3px;
+    }
+}
+
+.header-button {
+    display: flex;
+    align-items: center;
+    color: $header-link-color;
+    padding: 5px;
+    margin: 0 3px;
+    &:hover, &:focus {
+        background-color: rgba(0,0,0,.03);
+        text-decoration: none;
+    }
+    &__icon {
+        
+    }
+    &_search {
+
+    }
+    &_glasses {
+
+    }
+    &_language {
+        &:after {
+            display: block;
+            width: 5px;
+            height: 5px;
+            border-right: 1px solid $header-link-color;
+            border-bottom: 1px solid $header-link-color;
+            transform: rotate(45deg);
+            content: "";
+            margin-left: 4px;
+            margin-top: -3px;
+        }
+    }
+}
