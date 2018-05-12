@@ -79,7 +79,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n///////////\n// Стили //\n///////////\n\n__webpack_require__(/*! ./styles/main.scss */ \"./styles/main.scss\");\n\n////////////\n// Шрифты //\n////////////\n\n__webpack_require__(/*! ./fonts/Gilroy-ExtraBold.eot */ \"./fonts/Gilroy-ExtraBold.eot\");\n__webpack_require__(/*! ./fonts/Gilroy-ExtraBold.woff */ \"./fonts/Gilroy-ExtraBold.woff\");\n__webpack_require__(/*! ./fonts/Gilroy-ExtraBold.ttf */ \"./fonts/Gilroy-ExtraBold.ttf\");\n__webpack_require__(/*! ./fonts/Gilroy-Light.eot */ \"./fonts/Gilroy-Light.eot\");\n__webpack_require__(/*! ./fonts/Gilroy-Light.woff */ \"./fonts/Gilroy-Light.woff\");\n__webpack_require__(/*! ./fonts/Gilroy-Light.ttf */ \"./fonts/Gilroy-Light.ttf\");\n\n////////////\n// Шрифты //\n////////////\n\n__webpack_require__(/*! ./images/logo-dgkb.png */ \"./images/logo-dgkb.png\");\n__webpack_require__(/*! ./images/logo-dgkb.svg */ \"./images/logo-dgkb.svg\");\n__webpack_require__(/*! ./images/24-hours.png */ \"./images/24-hours.png\");\n\n__webpack_require__(/*! ./images/home-bg.jpg */ \"./images/home-bg.jpg\");\n\n__webpack_require__(/*! ./images/icons/phone.png */ \"./images/icons/phone.png\");\n__webpack_require__(/*! ./images/icons/marker.png */ \"./images/icons/marker.png\");\n__webpack_require__(/*! ./images/icons/menu.png */ \"./images/icons/menu.png\");\n__webpack_require__(/*! ./images/icons/login.png */ \"./images/icons/login.png\");\n__webpack_require__(/*! ./images/icons/search.png */ \"./images/icons/search.png\");\n__webpack_require__(/*! ./images/icons/glasses.png */ \"./images/icons/glasses.png\");\n__webpack_require__(/*! ./images/icons/comment.png */ \"./images/icons/comment.png\");\n__webpack_require__(/*! ./images/icons/more.png */ \"./images/icons/more.png\");\n__webpack_require__(/*! ./images/icons/more-post.png */ \"./images/icons/more-post.png\");\n__webpack_require__(/*! ./images/icons/status.png */ \"./images/icons/status.png\");\n\n__webpack_require__(/*! ./images/consultants-form-submit.png */ \"./images/consultants-form-submit.png\");\n\n__webpack_require__(/*! ./images/medic.jpg */ \"./images/medic.jpg\");\n\n__webpack_require__(/*! ./images/stomatolog.png */ \"./images/stomatolog.png\");\n__webpack_require__(/*! ./images/info-for-muther.png */ \"./images/info-for-muther.png\");\n__webpack_require__(/*! ./images/our-spec.png */ \"./images/our-spec.png\");\n__webpack_require__(/*! ./images/stacionar.png */ \"./images/stacionar.png\");\n\n//# sourceURL=webpack:///./commons.js?");
+eval("\n\n///////////\n// Стили //\n///////////\n\n__webpack_require__(/*! ./styles/main.scss */ \"./styles/main.scss\");\n\n////////////\n// Шрифты //\n////////////\n\n__webpack_require__(/*! ./fonts/Gilroy-ExtraBold.eot */ \"./fonts/Gilroy-ExtraBold.eot\");\n__webpack_require__(/*! ./fonts/Gilroy-ExtraBold.woff */ \"./fonts/Gilroy-ExtraBold.woff\");\n__webpack_require__(/*! ./fonts/Gilroy-ExtraBold.ttf */ \"./fonts/Gilroy-ExtraBold.ttf\");\n__webpack_require__(/*! ./fonts/Gilroy-Light.eot */ \"./fonts/Gilroy-Light.eot\");\n__webpack_require__(/*! ./fonts/Gilroy-Light.woff */ \"./fonts/Gilroy-Light.woff\");\n__webpack_require__(/*! ./fonts/Gilroy-Light.ttf */ \"./fonts/Gilroy-Light.ttf\");\n\n////////////\n// Шрифты //\n////////////\n\n__webpack_require__(/*! ./images/logo-dgkb.png */ \"./images/logo-dgkb.png\");\n__webpack_require__(/*! ./images/logo-dgkb.svg */ \"./images/logo-dgkb.svg\");\n__webpack_require__(/*! ./images/24-hours.png */ \"./images/24-hours.png\");\n\n__webpack_require__(/*! ./images/home-bg.jpg */ \"./images/home-bg.jpg\");\n\n__webpack_require__(/*! ./images/icons/phone.png */ \"./images/icons/phone.png\");\n__webpack_require__(/*! ./images/icons/marker.png */ \"./images/icons/marker.png\");\n__webpack_require__(/*! ./images/icons/menu.png */ \"./images/icons/menu.png\");\n__webpack_require__(/*! ./images/icons/login.png */ \"./images/icons/login.png\");\n__webpack_require__(/*! ./images/icons/search.png */ \"./images/icons/search.png\");\n__webpack_require__(/*! ./images/icons/glasses.png */ \"./images/icons/glasses.png\");\n__webpack_require__(/*! ./images/icons/comment.png */ \"./images/icons/comment.png\");\n__webpack_require__(/*! ./images/icons/more.png */ \"./images/icons/more.png\");\n__webpack_require__(/*! ./images/icons/more-post.png */ \"./images/icons/more-post.png\");\n__webpack_require__(/*! ./images/icons/status.png */ \"./images/icons/status.png\");\n\n__webpack_require__(/*! ./images/consultants-form-submit.png */ \"./images/consultants-form-submit.png\");\n\n__webpack_require__(/*! ./images/medic.jpg */ \"./images/medic.jpg\");\n\n__webpack_require__(/*! ./images/news-item.jpg */ \"./images/news-item.jpg\");\n__webpack_require__(/*! ./images/main-news-item.jpg */ \"./images/main-news-item.jpg\");\n\n__webpack_require__(/*! ./images/stomatolog.png */ \"./images/stomatolog.png\");\n__webpack_require__(/*! ./images/info-for-muther.png */ \"./images/info-for-muther.png\");\n__webpack_require__(/*! ./images/our-spec.png */ \"./images/our-spec.png\");\n__webpack_require__(/*! ./images/stacionar.png */ \"./images/stacionar.png\");\n\n//# sourceURL=webpack:///./commons.js?");
 
 /***/ }),
 
@@ -325,6 +325,17 @@ eval("module.exports = __webpack_require__.p + \"images/logo-dgkb.svg\";\n\n//# 
 
 /***/ }),
 
+/***/ "./images/main-news-item.jpg":
+/*!***********************************!*\
+  !*** ./images/main-news-item.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/main-news-item.jpg\";\n\n//# sourceURL=webpack:///./images/main-news-item.jpg?");
+
+/***/ }),
+
 /***/ "./images/medic.jpg":
 /*!**************************!*\
   !*** ./images/medic.jpg ***!
@@ -333,6 +344,17 @@ eval("module.exports = __webpack_require__.p + \"images/logo-dgkb.svg\";\n\n//# 
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"images/medic.jpg\";\n\n//# sourceURL=webpack:///./images/medic.jpg?");
+
+/***/ }),
+
+/***/ "./images/news-item.jpg":
+/*!******************************!*\
+  !*** ./images/news-item.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/news-item.jpg\";\n\n//# sourceURL=webpack:///./images/news-item.jpg?");
 
 /***/ }),
 

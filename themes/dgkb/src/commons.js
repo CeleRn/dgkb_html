@@ -44,6 +44,9 @@ require('./images/consultants-form-submit.png');
 
 require('./images/medic.jpg');
 
+require('./images/news-item.jpg');
+require('./images/main-news-item.jpg');
+
 require('./images/stomatolog.png');
 require('./images/info-for-muther.png');
 require('./images/our-spec.png');
