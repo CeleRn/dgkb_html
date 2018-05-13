@@ -135,7 +135,7 @@ eval("var g;\r\n\r\n// This works in non-strict mode\r\ng = (function() {\r\n\tr
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n///////////\n// Стили //\n///////////\n\n__webpack_require__(/*! bootstrap/js/dist/dropdown */ \"../node_modules/bootstrap/js/dist/dropdown.js\");\n\n__webpack_require__(/*! ./styles/main.scss */ \"./styles/main.scss\");\n\n////////////\n// Шрифты //\n////////////\n\n__webpack_require__(/*! ./fonts/Gilroy-ExtraBold.eot */ \"./fonts/Gilroy-ExtraBold.eot\");\n__webpack_require__(/*! ./fonts/Gilroy-ExtraBold.woff */ \"./fonts/Gilroy-ExtraBold.woff\");\n__webpack_require__(/*! ./fonts/Gilroy-ExtraBold.ttf */ \"./fonts/Gilroy-ExtraBold.ttf\");\n__webpack_require__(/*! ./fonts/Gilroy-Light.eot */ \"./fonts/Gilroy-Light.eot\");\n__webpack_require__(/*! ./fonts/Gilroy-Light.woff */ \"./fonts/Gilroy-Light.woff\");\n__webpack_require__(/*! ./fonts/Gilroy-Light.ttf */ \"./fonts/Gilroy-Light.ttf\");\n\n//////////////\n// Картинки //\n//////////////\n\n__webpack_require__(/*! ./images/logo-dgkb.png */ \"./images/logo-dgkb.png\");\n__webpack_require__(/*! ./images/footer-logo.png */ \"./images/footer-logo.png\");\n__webpack_require__(/*! ./images/logo-dgkb.svg */ \"./images/logo-dgkb.svg\");\n__webpack_require__(/*! ./images/24-hours.png */ \"./images/24-hours.png\");\n__webpack_require__(/*! ./images/24-hours-red.png */ \"./images/24-hours-red.png\");\n\n__webpack_require__(/*! ./images/home-bg.jpg */ \"./images/home-bg.jpg\");\n\n__webpack_require__(/*! ./images/icons/mail.png */ \"./images/icons/mail.png\");\n__webpack_require__(/*! ./images/icons/phone.png */ \"./images/icons/phone.png\");\n__webpack_require__(/*! ./images/icons/phone-blue.png */ \"./images/icons/phone-blue.png\");\n__webpack_require__(/*! ./images/icons/marker.png */ \"./images/icons/marker.png\");\n__webpack_require__(/*! ./images/icons/menu.png */ \"./images/icons/menu.png\");\n__webpack_require__(/*! ./images/icons/login.png */ \"./images/icons/login.png\");\n__webpack_require__(/*! ./images/icons/search.png */ \"./images/icons/search.png\");\n__webpack_require__(/*! ./images/icons/glasses.png */ \"./images/icons/glasses.png\");\n__webpack_require__(/*! ./images/icons/comment.png */ \"./images/icons/comment.png\");\n__webpack_require__(/*! ./images/icons/more.png */ \"./images/icons/more.png\");\n__webpack_require__(/*! ./images/icons/more-post.png */ \"./images/icons/more-post.png\");\n__webpack_require__(/*! ./images/icons/status.png */ \"./images/icons/status.png\");\n\n__webpack_require__(/*! ./images/icons/vk.png */ \"./images/icons/vk.png\");\n__webpack_require__(/*! ./images/icons/facebook.png */ \"./images/icons/facebook.png\");\n__webpack_require__(/*! ./images/icons/twitter.png */ \"./images/icons/twitter.png\");\n__webpack_require__(/*! ./images/icons/ok.png */ \"./images/icons/ok.png\");\n\n__webpack_require__(/*! ./images/icons/vk-header.png */ \"./images/icons/vk-header.png\");\n__webpack_require__(/*! ./images/icons/facebook-header.png */ \"./images/icons/facebook-header.png\");\n__webpack_require__(/*! ./images/icons/twitter-header.png */ \"./images/icons/twitter-header.png\");\n__webpack_require__(/*! ./images/icons/ok-header.png */ \"./images/icons/ok-header.png\");\n\n__webpack_require__(/*! ./images/consultants-form-submit.png */ \"./images/consultants-form-submit.png\");\n\n__webpack_require__(/*! ./images/medic.jpg */ \"./images/medic.jpg\");\n\n__webpack_require__(/*! ./images/news-item.jpg */ \"./images/news-item.jpg\");\n__webpack_require__(/*! ./images/main-news-item.jpg */ \"./images/main-news-item.jpg\");\n\n__webpack_require__(/*! ./images/map.jpg */ \"./images/map.jpg\");\n\n__webpack_require__(/*! ./images/stomatolog.png */ \"./images/stomatolog.png\");\n__webpack_require__(/*! ./images/info-for-muther.png */ \"./images/info-for-muther.png\");\n__webpack_require__(/*! ./images/our-spec.png */ \"./images/our-spec.png\");\n__webpack_require__(/*! ./images/stacionar.png */ \"./images/stacionar.png\");\n__webpack_require__(/*! ./images/consulting-center.png */ \"./images/consulting-center.png\");\n\n/////////////\n// Скрипты //\n/////////////\n\n__webpack_require__(/*! ./js/my-script.js */ \"./js/my-script.js\");\n\n//# sourceURL=webpack:///./commons.js?");
+eval("\n\n///////////\n// Стили //\n///////////\n\n__webpack_require__(/*! bootstrap/js/dist/dropdown */ \"../node_modules/bootstrap/js/dist/dropdown.js\");\n\n__webpack_require__(/*! ./styles/main.scss */ \"./styles/main.scss\");\n\n////////////\n// Шрифты //\n////////////\n\n__webpack_require__(/*! ./fonts/Gilroy-ExtraBold.eot */ \"./fonts/Gilroy-ExtraBold.eot\");\n__webpack_require__(/*! ./fonts/Gilroy-ExtraBold.woff */ \"./fonts/Gilroy-ExtraBold.woff\");\n__webpack_require__(/*! ./fonts/Gilroy-ExtraBold.ttf */ \"./fonts/Gilroy-ExtraBold.ttf\");\n__webpack_require__(/*! ./fonts/Gilroy-Light.eot */ \"./fonts/Gilroy-Light.eot\");\n__webpack_require__(/*! ./fonts/Gilroy-Light.woff */ \"./fonts/Gilroy-Light.woff\");\n__webpack_require__(/*! ./fonts/Gilroy-Light.ttf */ \"./fonts/Gilroy-Light.ttf\");\n\n//////////////\n// Картинки //\n//////////////\n\n__webpack_require__(/*! ./images/logo-dgkb.png */ \"./images/logo-dgkb.png\");\n__webpack_require__(/*! ./images/footer-logo.png */ \"./images/footer-logo.png\");\n__webpack_require__(/*! ./images/logo-dgkb.svg */ \"./images/logo-dgkb.svg\");\n\n__webpack_require__(/*! ./images/logo-author.png */ \"./images/logo-author.png\");\n\n__webpack_require__(/*! ./images/24-hours.png */ \"./images/24-hours.png\");\n__webpack_require__(/*! ./images/24-hours-red.png */ \"./images/24-hours-red.png\");\n\n__webpack_require__(/*! ./images/home-bg.jpg */ \"./images/home-bg.jpg\");\n\n__webpack_require__(/*! ./images/icons/mail.png */ \"./images/icons/mail.png\");\n__webpack_require__(/*! ./images/icons/phone.png */ \"./images/icons/phone.png\");\n__webpack_require__(/*! ./images/icons/phone-blue.png */ \"./images/icons/phone-blue.png\");\n__webpack_require__(/*! ./images/icons/marker.png */ \"./images/icons/marker.png\");\n__webpack_require__(/*! ./images/icons/menu.png */ \"./images/icons/menu.png\");\n__webpack_require__(/*! ./images/icons/login.png */ \"./images/icons/login.png\");\n__webpack_require__(/*! ./images/icons/search.png */ \"./images/icons/search.png\");\n__webpack_require__(/*! ./images/icons/glasses.png */ \"./images/icons/glasses.png\");\n__webpack_require__(/*! ./images/icons/comment.png */ \"./images/icons/comment.png\");\n__webpack_require__(/*! ./images/icons/more.png */ \"./images/icons/more.png\");\n__webpack_require__(/*! ./images/icons/more-post.png */ \"./images/icons/more-post.png\");\n__webpack_require__(/*! ./images/icons/status.png */ \"./images/icons/status.png\");\n\n__webpack_require__(/*! ./images/icons/vk.png */ \"./images/icons/vk.png\");\n__webpack_require__(/*! ./images/icons/facebook.png */ \"./images/icons/facebook.png\");\n__webpack_require__(/*! ./images/icons/twitter.png */ \"./images/icons/twitter.png\");\n__webpack_require__(/*! ./images/icons/ok.png */ \"./images/icons/ok.png\");\n\n__webpack_require__(/*! ./images/icons/vk-header.png */ \"./images/icons/vk-header.png\");\n__webpack_require__(/*! ./images/icons/facebook-header.png */ \"./images/icons/facebook-header.png\");\n__webpack_require__(/*! ./images/icons/twitter-header.png */ \"./images/icons/twitter-header.png\");\n__webpack_require__(/*! ./images/icons/ok-header.png */ \"./images/icons/ok-header.png\");\n\n__webpack_require__(/*! ./images/icons/vk-footer.png */ \"./images/icons/vk-footer.png\");\n__webpack_require__(/*! ./images/icons/facebook-footer.png */ \"./images/icons/facebook-footer.png\");\n__webpack_require__(/*! ./images/icons/twitter-footer.png */ \"./images/icons/twitter-footer.png\");\n__webpack_require__(/*! ./images/icons/ok-footer.png */ \"./images/icons/ok-footer.png\");\n\n__webpack_require__(/*! ./images/consultants-form-submit.png */ \"./images/consultants-form-submit.png\");\n\n__webpack_require__(/*! ./images/medic.jpg */ \"./images/medic.jpg\");\n\n__webpack_require__(/*! ./images/news-item.jpg */ \"./images/news-item.jpg\");\n__webpack_require__(/*! ./images/main-news-item.jpg */ \"./images/main-news-item.jpg\");\n\n__webpack_require__(/*! ./images/map.jpg */ \"./images/map.jpg\");\n\n__webpack_require__(/*! ./images/stomatolog.png */ \"./images/stomatolog.png\");\n__webpack_require__(/*! ./images/info-for-muther.png */ \"./images/info-for-muther.png\");\n__webpack_require__(/*! ./images/our-spec.png */ \"./images/our-spec.png\");\n__webpack_require__(/*! ./images/stacionar.png */ \"./images/stacionar.png\");\n__webpack_require__(/*! ./images/consulting-center.png */ \"./images/consulting-center.png\");\n\n/////////////\n// Скрипты //\n/////////////\n\n__webpack_require__(/*! ./js/my-script.js */ \"./js/my-script.js\");\n\n//# sourceURL=webpack:///./commons.js?");
 
 /***/ }),
 
@@ -282,6 +282,17 @@ eval("module.exports = __webpack_require__.p + \"images/comment.png\";\n\n//# so
 
 /***/ }),
 
+/***/ "./images/icons/facebook-footer.png":
+/*!******************************************!*\
+  !*** ./images/icons/facebook-footer.png ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/facebook-footer.png\";\n\n//# sourceURL=webpack:///./images/icons/facebook-footer.png?");
+
+/***/ }),
+
 /***/ "./images/icons/facebook-header.png":
 /*!******************************************!*\
   !*** ./images/icons/facebook-header.png ***!
@@ -381,6 +392,17 @@ eval("module.exports = __webpack_require__.p + \"images/more.png\";\n\n//# sourc
 
 /***/ }),
 
+/***/ "./images/icons/ok-footer.png":
+/*!************************************!*\
+  !*** ./images/icons/ok-footer.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/ok-footer.png\";\n\n//# sourceURL=webpack:///./images/icons/ok-footer.png?");
+
+/***/ }),
+
 /***/ "./images/icons/ok-header.png":
 /*!************************************!*\
   !*** ./images/icons/ok-header.png ***!
@@ -447,6 +469,17 @@ eval("module.exports = __webpack_require__.p + \"images/status.png\";\n\n//# sou
 
 /***/ }),
 
+/***/ "./images/icons/twitter-footer.png":
+/*!*****************************************!*\
+  !*** ./images/icons/twitter-footer.png ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/twitter-footer.png\";\n\n//# sourceURL=webpack:///./images/icons/twitter-footer.png?");
+
+/***/ }),
+
 /***/ "./images/icons/twitter-header.png":
 /*!*****************************************!*\
   !*** ./images/icons/twitter-header.png ***!
@@ -466,6 +499,17 @@ eval("module.exports = __webpack_require__.p + \"images/twitter-header.png\";\n\
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"images/twitter.png\";\n\n//# sourceURL=webpack:///./images/icons/twitter.png?");
+
+/***/ }),
+
+/***/ "./images/icons/vk-footer.png":
+/*!************************************!*\
+  !*** ./images/icons/vk-footer.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/vk-footer.png\";\n\n//# sourceURL=webpack:///./images/icons/vk-footer.png?");
 
 /***/ }),
 
@@ -499,6 +543,17 @@ eval("module.exports = __webpack_require__.p + \"images/vk.png\";\n\n//# sourceU
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"images/info-for-muther.png\";\n\n//# sourceURL=webpack:///./images/info-for-muther.png?");
+
+/***/ }),
+
+/***/ "./images/logo-author.png":
+/*!********************************!*\
+  !*** ./images/logo-author.png ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/logo-author.png\";\n\n//# sourceURL=webpack:///./images/logo-author.png?");
 
 /***/ }),
 

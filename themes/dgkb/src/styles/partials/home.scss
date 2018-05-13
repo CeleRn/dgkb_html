@@ -18,6 +18,10 @@
     align-items: center;
     padding: 30px 25px;
     border-radius: 10px;
+    &:hover, &:focus {
+        text-decoration: none;
+        color: #ffffff;
+    }
     &_bg_cyan {
         background-color: $bg-cyan-color;
         &:hover {

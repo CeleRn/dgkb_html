@@ -25,6 +25,9 @@ require('./fonts/Gilroy-Light.ttf');
 require('./images/logo-dgkb.png');
 require('./images/footer-logo.png');
 require('./images/logo-dgkb.svg');
+
+require('./images/logo-author.png');
+
 require('./images/24-hours.png');
 require('./images/24-hours-red.png');
 
@@ -52,6 +55,11 @@ require('./images/icons/vk-header.png');
 require('./images/icons/facebook-header.png');
 require('./images/icons/twitter-header.png');
 require('./images/icons/ok-header.png');
+
+require('./images/icons/vk-footer.png');
+require('./images/icons/facebook-footer.png');
+require('./images/icons/twitter-footer.png');
+require('./images/icons/ok-footer.png');
 
 require('./images/consultants-form-submit.png');
 
