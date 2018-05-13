@@ -95,9 +95,21 @@
         <div class="order-form">
           <h3 class="order-form__title">Запишитесь на прием к специалисту, сэкономьте время</h3>
           <div class="order-form__input-group">
-            <input type="text" class="order-form__input" />
-            <input type="text" class="order-form__input" />
-            <input type="text" class="order-form__input" />
+            <div class="form-input">
+              <input class="form-input__input" name="direction" id="direction" type="text">
+              <label class="form-input__label" for="direction">Направление</label>
+              <div class="form-input__border-bottom"></div>
+            </div>
+            <div class="form-input">
+              <input class="form-input__input" name="specialist" id="specialist" type="text">
+              <label class="form-input__label" for="specialist">Специалист</label>
+              <div class="form-input__border-bottom"></div>
+            </div>
+            <div class="form-input">
+              <input class="form-input__input" name="cause" id="cause" type="text">
+              <label class="form-input__label" for="cause">Причина обращения</label>
+              <div class="form-input__border-bottom"></div>
+            </div>
           </div>
           <button type="submit" class="order-form__submit">Записаться на приём</button>
           <p class="order-form__legal-text">Нажимая кнопку «Записаться на приём», Вы Соглашаетесь на обработку персональных данных</p>
