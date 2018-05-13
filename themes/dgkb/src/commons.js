@@ -18,9 +18,9 @@ require('./fonts/Gilroy-Light.woff');
 require('./fonts/Gilroy-Light.ttf');
 
 
-////////////
-// Шрифты //
-////////////
+//////////////
+// Картинки //
+//////////////
 
 require('./images/logo-dgkb.png');
 require('./images/footer-logo.png');
@@ -68,3 +68,10 @@ require('./images/our-spec.png');
 require('./images/stacionar.png');
 require('./images/consulting-center.png');
 
+/////////////
+// Скрипты //
+/////////////
+
+require('./js/my-script.js');
+
+import 'bootstrap/js/dist/dropdown';

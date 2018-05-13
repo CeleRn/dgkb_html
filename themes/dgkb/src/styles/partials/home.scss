@@ -18,7 +18,6 @@
     align-items: center;
     padding: 30px 25px;
     border-radius: 10px;
-    
     &_bg_cyan {
         background-color: $bg-cyan-color;
     }
@@ -55,7 +54,7 @@
     }
     &__list {
         flex-basis: 40%;
-        background-image: linear-gradient(to left, rgba(0,0,0,0.05), transparent);
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.05), transparent);
         height: 100%;
         overflow-y: auto;
         height: 672px;
@@ -78,7 +77,6 @@
     &__form {
         flex: 0 0 100%;
     }
-    
 }
 
 .consultants-form {
@@ -95,6 +93,9 @@
     }
     &__input {
         flex: 1 1 200px;
+        &.form-input {
+            margin: 0;
+        }
     }
     &__submit {
         flex: 0 0 36px;
@@ -104,6 +105,11 @@
         background-color: transparent;
         margin-left: 5px;
         border: 0;
+        cursor: pointer;
+        &:hover,
+        &:focus {
+            outline: 0;
+        }
     }
     &__submit-image {}
 }
@@ -193,25 +199,36 @@
         justify-content: space-between;
     }
 }
+
 .advantage-item {
     flex: 0 0 33%;
     padding: 25px;
     margin-bottom: 20px;
+    border-radius: 10px; // border: 1px solid #ededed;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        box-shadow: 0 0 27px rgba(#3a89bc, 0.25);
+        .advantage-item__more {
+            background-color: #74aede;
+        }
+    }
     &__title {
+        display: block;
         position: relative;
         font-size: 27px;
         color: $main-color-light;
         font-weight: 800;
         line-height: 1.1;
-        &:after {
-            position: absolute;
-            display: block;
-            bottom: -34px;
-            width: 100%;
-            height: 1px;
-            content: "";
-            background-image: linear-gradient(to right, $main-color, $main-color-light);
-        }
+        padding-bottom: 30px;
+    }
+    &__border-bottom {
+        position: relative;
+        display: block;
+        bottom: -25px;
+        height: 1px;
+        margin: 0 -25px;
+        // content: "";
+        background-image: linear-gradient(to right, $main-color, $main-color-light);
     }
     &__more {
         position: relative;
@@ -225,6 +242,7 @@
         margin-left: auto;
         margin-right: 20px;
         margin-bottom: 10px;
+        transition: background 0.2s ease-in-out;
     }
     &__more-icon {
         margin-right: -3px;
@@ -257,9 +275,7 @@
         margin-bottom: 30px;
         text-align: center;
     }
-    &__form {
-
-    }
+    &__form {}
 }
 
 .call-to-action-form {
@@ -271,8 +287,7 @@
         justify-content: space-around;
         align-items: center;
         flex-flow: 1;
-        flex-grow: 1;
-        // width: 90%;
+        flex-grow: 1; // width: 90%;
         background-color: #ffffff;
         border-radius: 10px;
         padding: 10px 15px;
@@ -295,7 +310,8 @@
         border-radius: 10px;
         margin-left: 6px;
         cursor: pointer;
-        &:hover, &:focus {
+        &:hover,
+        &:focus {
             background-color: darken($submit-button-color, 5%);
         }
     }
@@ -350,11 +366,9 @@
         margin-left: auto;
         margin-right: 20px;
         margin-top: -25px;
-        border:2px solid #ffffff;
+        border: 2px solid #ffffff;
     }
-    &__more-icon {
-
-    }
+    &__more-icon {}
     &__date {
         font-size: 10px;
         color: $main-color-light;
@@ -375,6 +389,7 @@
         padding: 0 30px;
     }
 }
+
 .news-item {
     // margin: 0 7.5px;
     flex: 0 0 48%;
@@ -385,7 +400,6 @@
         border-radius: 10px 10px 0 0;
         background-repeat: no-repeat no-repeat;
         background-position: center top;
-
     }
     &__more-link {
         position: relative;
@@ -399,12 +413,10 @@
         margin-left: auto;
         margin-right: 20px;
         margin-top: -25px;
-        border:2px solid #ffffff;
+        border: 2px solid #ffffff;
         margin-bottom: -20px;
     }
-    &__more-icon {
-
-    }
+    &__more-icon {}
     &__date {
         font-size: 10px;
         color: $main-color-light;
@@ -464,9 +476,7 @@
     &__social {
         padding: 5px;
     }
-    &__social-image {
-
-    }
+    &__social-image {}
     &__all {
         font-size: 9px;
         margin-top: 20px;
@@ -481,6 +491,9 @@
     flex-wrap: wrap;
     &__input {
         flex: 1 1 200px;
+        &.form-input {
+            margin: 0;
+        }
     }
     &__submit {
         flex: 0 0 36px;
@@ -490,6 +503,11 @@
         background-color: transparent;
         margin-left: 5px;
         border: 0;
+        cursor: pointer;
+        &:hover,
+        &:focus {
+            outline: 0;
+        }
     }
     &__submit-image {}
 }
@@ -533,16 +551,15 @@
 .review-header-item {
     color: #505764;
     text-decoration: underline;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         color: #505764;
     }
     &__text {
         font-size: 9px;
         color: #505764;
     }
-    &__icon {
-
-    }
+    &__icon {}
 }
 
 .contacts {
@@ -582,7 +599,7 @@
         list-style: none;
     }
 }
-    
+
 .phones-list-item {
     margin-bottom: 20px;
     &__title {

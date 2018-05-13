@@ -153,7 +153,11 @@
           <form action="#" class="consultants__form consultants-form">
             <p class="consultants-form__small-text">Вы можете записаться на приём к любому из докторов, либо ознакомиться с их расписанием.</p>
             <p class="consultants-form__small-text consultants-form__small-text_mb_30">Оставьте e-mail, чтобы было легче узнавать о наших новостях</p>
-            <input type="email" class="consultants-form__input" placeholder="Ваш email" />
+            <div class="consultants-form__input form-input">
+              <input class="form-input__input" name="client-email" id="client-email" type="text">
+              <label class="form-input__label" for="client-email">Ваш email</label>
+              <div class="form-input__border-bottom"></div>
+            </div>
             <button type="submit" class="consultants-form__submit">
               <img src="/assets/images/consultants-form-submit.png" alt="Подписаться на новости" class="consultants-form__submit-image"
               />
@@ -293,6 +297,7 @@
       <div class="container">
         <div class="advantage-item">
           <h3 class="advantage-item__title">Уникальный в России комплекс урология-нефрология-диализ</h3>
+          <div class="advantage-item__border-bottom"></div>
           <a href="#" class="advantage-item__more">
             <img src="/assets/images/more-post.png" alt="Подробнее" class="advantage-item__more-icon" />
           </a>
@@ -306,6 +311,7 @@
 
         <div class="advantage-item">
           <h3 class="advantage-item__title">Звездный состав персонала, которому позавидует любая клиника</h3>
+          <div class="advantage-item__border-bottom"></div>
           <a href="#" class="advantage-item__more">
             <img src="/assets/images/more-post.png" alt="Подробнее" class="advantage-item__more-icon" />
           </a>
@@ -319,6 +325,7 @@
 
         <div class="advantage-item">
           <h3 class="advantage-item__title">Восстановление ребенка происходит на свежем воздухе за городом</h3>
+          <div class="advantage-item__border-bottom"></div>
           <a href="#" class="advantage-item__more">
             <img src="/assets/images/more-post.png" alt="Подробнее" class="advantage-item__more-icon" />
           </a>
@@ -332,6 +339,7 @@
 
         <div class="advantage-item">
           <h3 class="advantage-item__title">Старейшая в Москве педиатрия</h3>
+          <div class="advantage-item__border-bottom"></div>
           <a href="#" class="advantage-item__more">
             <img src="/assets/images/more-post.png" alt="Подробнее" class="advantage-item__more-icon" />
           </a>
@@ -345,6 +353,7 @@
 
         <div class="advantage-item">
           <h3 class="advantage-item__title">Уникальная сосудистая хирургия</h3>
+          <div class="advantage-item__border-bottom"></div>
           <a href="#" class="advantage-item__more">
             <img src="/assets/images/more-post.png" alt="Подробнее" class="advantage-item__more-icon" />
           </a>
@@ -358,6 +367,7 @@
 
         <div class="advantage-item">
           <h3 class="advantage-item__title">Первая в Европе хирургия новорождённых</h3>
+          <div class="advantage-item__border-bottom"></div>
           <a href="#" class="advantage-item__more">
             <img src="/assets/images/more-post.png" alt="Подробнее" class="advantage-item__more-icon" />
           </a>
@@ -491,7 +501,11 @@
             </a>
           </div>
           <form action="#" class="reviews__form reviews-form">
-            <input type="email" class="reviews-form__input" placeholder="Оставьте Ваш комментарий" />
+            <div class="reviews-form__input form-input">
+              <input class="form-input__input" name="client-review" id="client-review" type="text">
+              <label class="form-input__label" for="client-review">Оставьте Ваш комментарий</label>
+              <div class="form-input__border-bottom"></div>
+            </div>
             <button type="submit" class="reviews-form__submit">
               <img src="/assets/images/consultants-form-submit.png" alt="Оставить отзыв" class="reviews-form__submit-image" />
             </button>
