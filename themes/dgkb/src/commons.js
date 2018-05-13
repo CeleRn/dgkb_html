@@ -23,6 +23,7 @@ require('./fonts/Gilroy-Light.ttf');
 ////////////
 
 require('./images/logo-dgkb.png');
+require('./images/footer-logo.png');
 require('./images/logo-dgkb.svg');
 require('./images/24-hours.png');
 
@@ -40,6 +41,11 @@ require('./images/icons/more.png');
 require('./images/icons/more-post.png');
 require('./images/icons/status.png');
 
+require('./images/icons/vk.png');
+require('./images/icons/facebook.png');
+require('./images/icons/twitter.png');
+require('./images/icons/ok.png');
+
 require('./images/consultants-form-submit.png');
 
 require('./images/medic.jpg');
@@ -47,7 +53,11 @@ require('./images/medic.jpg');
 require('./images/news-item.jpg');
 require('./images/main-news-item.jpg');
 
+require('./images/map.jpg');
+
 require('./images/stomatolog.png');
 require('./images/info-for-muther.png');
 require('./images/our-spec.png');
 require('./images/stacionar.png');
+require('./images/consulting-center.png');
+

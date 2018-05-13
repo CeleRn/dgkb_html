@@ -4,10 +4,10 @@
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    justify-content: space-around;
-    width: 90%;
+    justify-content: space-between;
+    width: 100%;
     &__item {
-        flex: 0 0 24%;
+        flex: 0 0 222px;
     }
 }
 
@@ -16,8 +16,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 35px;
+    padding: 30px 25px;
     border-radius: 10px;
+    
     &_bg_cyan {
         background-color: $bg-cyan-color;
     }
@@ -29,6 +30,9 @@
     }
     &_bg_pink {
         background-color: $bg-pink-color;
+    }
+    &_bg_gray {
+        background-color: $bg-gray-color;
     }
     &__title {
         color: #ffffff;
@@ -420,5 +424,174 @@
         font-size: 10px;
         line-height: 1.1;
         padding: 0 30px;
+    }
+}
+
+.reviews {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    &__content {
+        flex-basis: 45%;
+    }
+    &__list {
+        flex-basis: 40%;
+        flex-grow: 1;
+        padding-left: 50px;
+    }
+    &__title {
+        font-size: 63px;
+        color: $main-color-light;
+        line-height: 1;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+    &__description {
+        font-size: 27px;
+        color: #738594;
+        font-weight: 800;
+        line-height: 1.1;
+        margin-bottom: 45px;
+    }
+    &__form {
+        flex: 0 0 100%;
+    }
+    &__socials-list {
+        margin-bottom: 25px;
+    }
+    &__social {
+        padding: 5px;
+    }
+    &__social-image {
+
+    }
+    &__all {
+        font-size: 9px;
+        margin-top: 20px;
+    }
+    &__all-link {
+        text-decoration: underline;
+    }
+}
+
+.reviews-form {
+    display: flex;
+    flex-wrap: wrap;
+    &__input {
+        flex: 1 1 200px;
+    }
+    &__submit {
+        flex: 0 0 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        margin-left: 5px;
+        border: 0;
+    }
+    &__submit-image {}
+}
+
+.review {
+    display: flex;
+    margin-bottom: 30px;
+    &__photo {
+        flex: 0 0 77px;
+        height: 77px;
+        margin-right: 25px;
+    }
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &:after {
+            flex: 0 0 100%;
+            display: block;
+            margin-top: 10px;
+            width: 100%;
+            height: 1px;
+            content: "";
+            background-image: linear-gradient(to right, $main-color, $main-color-light);
+            margin-bottom: 20px;
+        }
+    }
+    &__title {
+        font-size: 17px;
+        color: #505764;
+        font-weight: 800;
+        margin-bottom: 0;
+    }
+    &__text {
+        color: #738594;
+        font-size: 10px;
+        line-height: 1.1;
+    }
+}
+
+.review-header-item {
+    color: #505764;
+    text-decoration: underline;
+    &:hover, &:focus {
+        color: #505764;
+    }
+    &__text {
+        font-size: 9px;
+        color: #505764;
+    }
+    &__icon {
+
+    }
+}
+
+.contacts {
+    margin-top: 40px;
+    background-color: #f2f4f8;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content {
+        flex: 0 0 40%;
+        padding: 55px 0;
+    }
+    &__map {
+        flex: 1 1 50%;
+        background-image: url('/assets/images/map.jpg');
+        background-position: center center;
+        background-repeat: no-repeat no-repeat;
+        background-size: cover;
+    }
+    &__title {
+        font-size: 63px;
+        color: $main-color-light;
+        line-height: 1;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+    &__address {
+        font-size: 27px;
+        color: #738594;
+        font-weight: 800;
+        line-height: 1.1;
+        margin-bottom: 45px;
+    }
+    &__phones-list {
+        padding-left: 0;
+        list-style: none;
+    }
+}
+    
+.phones-list-item {
+    margin-bottom: 20px;
+    &__title {
+        font-size: 12px;
+        color: #738594;
+        margin-bottom: 0;
+    }
+    &__number {
+        font-size: 12px;
+        color: #738594;
     }
 }
