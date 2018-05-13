@@ -33,7 +33,7 @@
         justify-content: flex-end;
     }
     &__socials-item {
-        padding: 3px;
+        padding: 1px 3px;
         margin: 0 3px;
     }
     &__social-image {}
@@ -57,7 +57,7 @@
     color: $header-link-color;
     padding: 5px;
     margin: 0 3px;
-    min-width: 34px;
+    min-width: 30px;
     &:hover,
     &:focus {
         background-color: rgba(0, 0, 0, .03);
@@ -67,10 +67,11 @@
     &_search {}
     &_glasses {}
     &_language {
+        font-size: 10px;
         &:after {
             display: block;
-            width: 5px;
-            height: 5px;
+            width: 4px;
+            height: 4px;
             border-right: 1px solid $header-link-color;
             border-bottom: 1px solid $header-link-color;
             transform: rotate(45deg);
