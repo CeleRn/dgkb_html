@@ -11,52 +11,80 @@
 
 <body>
   <header class="header">
-    <div class="container">
-      <div class="logo">
-        <img src="/assets/images/logo-dgkb.png" alt="Детская городская клиническая больница Святого Владимира" class="logo__image"
-        />
-        <span class="logo__name">
-          <span class="logo__text-red">Детская</span> городская клиническая
-          <span class="logo__text-red">больница</span> Святого Владимира</span>
-      </div>
-
-      <div class="contacts">
-        <img src="/assets/images/24-hours.png" alt="Работаем круглосуточно" class="contacts__image" />
-        <div class="contacts__info">
-          <div class="phone">
-            <img src="/assets/images/phone.png" alt="Звоните" class="phone__icon" />
-            <span class="phone__number">+7 499 268 22 31</span>
+    <div class="header__top">
+      <div class="container">
+        <div class="header__contacts">
+          <div class="header__contacts-item">
+            <img src="/assets/images/marker.png" alt="Показать на карте" class="header__contacts-icon">
+            <address class="header__contacts-text">107014 город Москва, ул., Рубцовско – Дворцовая, дом 1/3</address>
           </div>
-          <a href="#" class="back-call-button">Заказать обратный звонок</a>
-          <address class="contacts__assress">107014 город Москва, ул., Рубцовско – Дворцовая, дом 1/3</address>
-          <div class="to-map">
-            <img src="/assets/images/marker.png" alt="Показать на карте" class="to-map__icon">
-            <a href="#" class="to-map__link">Показать на карте</a>
+          <div class="header__contacts-item">
+            <img src="/assets/images/phone.png" alt="Звоните" class="header__contacts-icon" />
+            <span class="header__contacts-text">+7 499 268 22 31</span>
+          </div>
+          <div class="header__contacts-item">
+            <img src="/assets/images/mail.png" alt="Пишите" class="header__contacts-icon" />
+            <a class="header__contacts-text" href="mailto:dgkbsv@zdrav.mos.ru">dgkbsv@zdrav.mos.ru</a>
           </div>
         </div>
-      </div>
+        <div class="header__socials">
+          <a href="#" class="header__socials-item">
+            <img src="/assets/images/vk-header.png" alt="Мы Вконтакте" class="header__social-image" />
+          </a>
+          <a href="#" class="header__socials-item">
+            <img src="/assets/images/facebook-header.png" alt="Мы в Facebook" class="header__social-image" />
+          </a>
+          <a href="#" class="header__socials-item">
+            <img src="/assets/images/twitter-header.png" alt="Мы в Twitter" class="header__social-image" />
+          </a>
+          <a href="#" class="header__socials-item">
+            <img src="/assets/images/ok-header.png" alt="Мы в Одноклассниках" class="header__social-image" />
+          </a>
 
-      <a href="#" class="menu-button">
-        <img src="/assets/images/menu.png" alt="Меню" class="menu-button__icon" />
-        <span class="menu-button__text">Меню</span>
-      </a>
-      <a href="#" class="login-button">
-        <img src="/assets/images/login.png" alt="Вход в личный кабинет" class="menu-button__icon" />
-        <span class="login-button__text">Вход</span>
-      </a>
-      <div class="header__buttons">
-        <a href="#" class="header-button header-button_search">
-          <img src="/assets/images/search.png" alt="Поиск по сайту" class="header-button__icon" />
-        </a>
-        <a href="#" class="header-button header-button_glasses">
-          <img src="/assets/images/glasses.png" alt="Версия для слабовидящих" class="header-button__icon" />
-        </a>
-        <a href="#" class="header-button header-button_language">Ru</a>
+        </div>
+        <div class="header__buttons">
+          <a href="#" class="header-button header-button_search">
+            <img src="/assets/images/search.png" alt="Поиск по сайту" class="header-button__icon" />
+          </a>
+          <a href="#" class="header-button header-button_glasses">
+            <img src="/assets/images/glasses.png" alt="Версия для слабовидящих" class="header-button__icon" />
+          </a>
+          <a href="#" class="header-button header-button_language">Ru</a>
+        </div>
+      </div>
+    </div>
+    <div class="header__medium">
+      <div class="container">
+        <div class="logo">
+          <img src="/assets/images/logo-dgkb.png" alt="Детская городская клиническая больница Святого Владимира" class="logo__image"
+          />
+        </div>
+        <nav class="main-menu">
+          <a href="#" class="main-menu__item">О больнице</a>
+          <a href="#" class="main-menu__item">Детское отделение</a>
+          <a href="#" class="main-menu__item">Услуги</a>
+        </nav>
+        <div class="header__login-block">
+          <a href="#" class="login-button">
+            <img src="/assets/images/login.png" alt="Вход в личный кабинет" class="login-button__icon" />
+            <span class="login-button__text">Вход</span>
+          </a>
+        </div>
+
+        <div class="header-phone">
+          <img src="/assets/images/24-hours-red.png" alt="Работаем круглосуточно" class="header-phone__image" />
+          <div class="header-phone__content">
+            <div class="header-phone__phone">
+              <img src="/assets/images/phone-blue.png" alt="Звоните" class="header-phone__icon" />
+              <span class="header-phone__number">+7 499 268 22 31</span>
+            </div>
+            <a href="#" class="back-call-button">Заказать обратный звонок</a>
+          </div>
+        </div>
       </div>
     </div>
   </header>
   <main class="main">
-
     <div class="top-block">
       <div class="container">
         <span class="top-block_small-header">Государственное бюджетное
@@ -632,7 +660,7 @@
           </nav>
         </div>
         <div class="footer__bottom-block">
-          
+
         </div>
       </div>
     </div>
