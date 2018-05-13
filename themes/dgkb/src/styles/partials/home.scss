@@ -20,18 +20,33 @@
     border-radius: 10px;
     &_bg_cyan {
         background-color: $bg-cyan-color;
+        &:hover {
+            background-color: lighten($bg-cyan-color, 5%);
+        }
     }
     &_bg_blue {
         background-color: $bg-blue-color;
+        &:hover {
+            background-color: lighten($bg-blue-color, 5%);
+        }
     }
     &_bg_purple {
         background-color: $bg-purple-color;
+        &:hover {
+            background-color: lighten($bg-purple-color, 5%);
+        }
     }
     &_bg_pink {
         background-color: $bg-pink-color;
+        &:hover {
+            background-color: lighten($bg-pink-color, 5%);
+        }
     }
     &_bg_gray {
         background-color: $bg-gray-color;
+        &:hover {
+            background-color: lighten($bg-gray-color, 5%);
+        }
     }
     &__title {
         color: #ffffff;
@@ -282,15 +297,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
     &__input-group {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        flex-flow: 1;
-        flex-grow: 1; // width: 90%;
+        // flex-flow: 1;
+        flex-grow: 1; 
+        width: 100%;
         background-color: #ffffff;
         border-radius: 10px;
-        padding: 10px 15px;
+        padding: 20px 25px;
     }
     &__input {
         width: 266px;
@@ -302,12 +319,12 @@
         margin-top: 10px;
     }
     &__submit {
-        padding: 20px 30px;
+        padding: 15px 30px;
         background-color: $submit-button-color;
         color: #ffffff;
         font-weight: 800;
         border: 0;
-        border-radius: 10px;
+        border-radius: 27px;
         margin-left: 6px;
         cursor: pointer;
         &:hover,
@@ -347,6 +364,10 @@
 
 .main-news-item {
     margin-right: 15px;
+    border-radius: 10px;
+    &:hover {
+        box-shadow: 0 0 27px rgba(#3a89bc, 0.25);
+    }
     &__image {
         width: 370px;
         height: 335px;
@@ -394,6 +415,10 @@
     // margin: 0 7.5px;
     flex: 0 0 48%;
     margin-bottom: 25px;
+    border-radius: 10px;
+    &:hover {
+        box-shadow: 0 0 27px rgba(#3a89bc, 0.25);
+    }
     &__image {
         width: 100%;
         height: 140px;

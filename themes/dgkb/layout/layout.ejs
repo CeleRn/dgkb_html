@@ -388,9 +388,21 @@
         <p class="call-to-action__text">Запишитесь на прием к специалисту, используя эту форму:</p>
         <form action="#" class="call-to-action__form call-to-action-form">
           <div class="call-to-action-form__input-group">
-            <input type="text" class="call-to-action-form__input" />
-            <input type="text" class="call-to-action-form__input" />
-            <input type="text" class="call-to-action-form__input" />
+            <div class="form-input">
+              <input class="form-input__input" name="direction-cta" id="direction-cta" type="text">
+              <label class="form-input__label" for="direction-cta">Направление</label>
+              <div class="form-input__border-bottom"></div>
+            </div>
+            <div class="form-input">
+              <input class="form-input__input" name="specialist-cta" id="specialist-cta" type="text">
+              <label class="form-input__label" for="specialist-cta">Специалист</label>
+              <div class="form-input__border-bottom"></div>
+            </div>
+            <div class="form-input">
+              <input class="form-input__input" name="cause-cta" id="cause-cta" type="text">
+              <label class="form-input__label" for="cause-cta">Причина обращения</label>
+              <div class="form-input__border-bottom"></div>
+            </div>
           </div>
           <p class="call-to-action-form__text">Нажимая кнопку «Записаться на прием», Вы Соглашаетесь на обработку персональных данных</p>
           <button type="submit" class="call-to-action-form__submit">Записаться на прием</button>
